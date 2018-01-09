@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9982" started-at="2018-01-09T18:24:20Z" finished-at="2018-01-09T18:24:30Z">
+    <groups>
+      <group name="regression">
+        <method signature="RegressionTest.f()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="f" class="DCTestFrameWork_Tests.RegressionTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="RegressionTest.f()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="f" class="DCTestFrameWork_Tests.RegressionTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="9982" started-at="2018-01-09T18:24:20Z" finished-at="2018-01-09T18:24:30Z">
+      <class name="DCTestFrameWork_Tests.BaseTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:DCTestFrameWork_Tests.BaseTest@73f792cf]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2018-01-09T10:24:20Z" finished-at="2018-01-09T10:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:DCTestFrameWork_Tests.BaseTest@73f792cf]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-09T10:24:20Z" finished-at="2018-01-09T10:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:DCTestFrameWork_Tests.BaseTest@73f792cf]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-09T10:24:30Z" finished-at="2018-01-09T10:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:DCTestFrameWork_Tests.BaseTest@73f792cf]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-01-09T10:24:30Z" finished-at="2018-01-09T10:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- DCTestFrameWork_Tests.BaseTest -->
+      <class name="DCTestFrameWork_Tests.RegressionTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="beforeClass" is-config="true" duration-ms="2901" started-at="2018-01-09T10:24:20Z" finished-at="2018-01-09T10:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="f" duration-ms="6351" started-at="2018-01-09T10:24:23Z" finished-at="2018-01-09T10:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T10:24:23Z" finished-at="2018-01-09T10:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="afterClass" is-config="true" duration-ms="707" started-at="2018-01-09T10:24:29Z" finished-at="2018-01-09T10:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T10:24:29Z" finished-at="2018-01-09T10:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DCTestFrameWork_Tests.RegressionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
