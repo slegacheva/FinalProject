@@ -38,12 +38,11 @@ public class BaseTest {
 
   @AfterClass(alwaysRun = true)
   public void afterClass() {
-	  driver.quit();
+	  //driver.quit();
   }
 
   @BeforeTest(alwaysRun = true)
   public void beforeTest() {
-	  System.out.println("This is the before test step");
   }
 
   @AfterTest

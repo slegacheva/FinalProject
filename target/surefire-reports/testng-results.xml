@@ -1,57 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="8" total="15" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9982" started-at="2018-01-09T18:24:20Z" finished-at="2018-01-09T18:24:30Z">
+  <suite name="Movies" duration-ms="17607" started-at="2018-01-13T10:37:30Z" finished-at="2018-01-13T10:37:47Z">
     <groups>
       <group name="regression">
-        <method signature="RegressionTest.f()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="f" class="DCTestFrameWork_Tests.RegressionTest"/>
+        <method signature="MoviesFilterTest.FilterByAnimationTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterByAnimationTest" class="DCTestFrameWork_Tests.MoviesFilterTest"/>
+        <method signature="MoviesFilterTest.FilterByLiveActionAndAnimationTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterByLiveActionAndAnimationTest" class="DCTestFrameWork_Tests.MoviesFilterTest"/>
+        <method signature="MoviesFilterTest.FilterByLiveActionTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterByLiveActionTest" class="DCTestFrameWork_Tests.MoviesFilterTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="RegressionTest.f()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="f" class="DCTestFrameWork_Tests.RegressionTest"/>
+        <method signature="MoviesFilterTest.FilterByAnimationTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterByAnimationTest" class="DCTestFrameWork_Tests.MoviesFilterTest"/>
+        <method signature="MoviesFilterTest.FilterByLiveActionAndAnimationTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterByLiveActionAndAnimationTest" class="DCTestFrameWork_Tests.MoviesFilterTest"/>
+        <method signature="MoviesFilterTest.FilterByLiveActionTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterByLiveActionTest" class="DCTestFrameWork_Tests.MoviesFilterTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="9982" started-at="2018-01-09T18:24:20Z" finished-at="2018-01-09T18:24:30Z">
-      <class name="DCTestFrameWork_Tests.BaseTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:DCTestFrameWork_Tests.BaseTest@73f792cf]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2018-01-09T10:24:20Z" finished-at="2018-01-09T10:24:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:DCTestFrameWork_Tests.BaseTest@73f792cf]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-09T10:24:20Z" finished-at="2018-01-09T10:24:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:DCTestFrameWork_Tests.BaseTest@73f792cf]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-09T10:24:30Z" finished-at="2018-01-09T10:24:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:DCTestFrameWork_Tests.BaseTest@73f792cf]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-01-09T10:24:30Z" finished-at="2018-01-09T10:24:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- DCTestFrameWork_Tests.BaseTest -->
-      <class name="DCTestFrameWork_Tests.RegressionTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="beforeClass" is-config="true" duration-ms="2901" started-at="2018-01-09T10:24:20Z" finished-at="2018-01-09T10:24:23Z">
+    <test name="Movies Test" duration-ms="17607" started-at="2018-01-13T10:37:30Z" finished-at="2018-01-13T10:37:47Z">
+      <class name="DCTestFrameWork_Tests.MoviesNavTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:DCTestFrameWork_Tests.MoviesNavTest@13fee20c]" name="beforeClass" is-config="true" duration-ms="1913" started-at="2018-01-13T02:37:45Z" finished-at="2018-01-13T02:37:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="f" duration-ms="6351" started-at="2018-01-09T10:24:23Z" finished-at="2018-01-09T10:24:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T10:24:23Z" finished-at="2018-01-09T10:24:23Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesNavTest@13fee20c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:47Z" finished-at="2018-01-13T02:37:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="afterClass" is-config="true" duration-ms="707" started-at="2018-01-09T10:24:29Z" finished-at="2018-01-09T10:24:30Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:DCTestFrameWork_Tests.MoviesNavTest@13fee20c]" name="f" duration-ms="0" started-at="2018-01-13T02:37:47Z" finished-at="2018-01-13T02:37:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DCTestFrameWork_Tests.RegressionTest@2ed94a8b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T10:24:29Z" finished-at="2018-01-09T10:24:29Z">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesNavTest@13fee20c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-13T02:37:47Z" finished-at="2018-01-13T02:37:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- DCTestFrameWork_Tests.RegressionTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:DCTestFrameWork_Tests.MoviesNavTest@13fee20c]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:47Z" finished-at="2018-01-13T02:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DCTestFrameWork_Tests.MoviesNavTest -->
+      <class name="DCTestFrameWork_Tests.MoviesFilterTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="beforeClass" is-config="true" duration-ms="1935" started-at="2018-01-13T02:37:32Z" finished-at="2018-01-13T02:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:34Z" finished-at="2018-01-13T02:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="FilterByAnimationTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterByAnimationTest" duration-ms="3595" started-at="2018-01-13T02:37:34Z" finished-at="2018-01-13T02:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterByAnimationTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-13T02:37:38Z" finished-at="2018-01-13T02:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="FilterByLiveActionAndAnimationTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterByLiveActionAndAnimationTest" duration-ms="2867" started-at="2018-01-13T02:37:38Z" finished-at="2018-01-13T02:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterByLiveActionAndAnimationTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:38Z" finished-at="2018-01-13T02:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="FilterByLiveActionTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterByLiveActionTest" duration-ms="2076" started-at="2018-01-13T02:37:41Z" finished-at="2018-01-13T02:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterByLiveActionTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:41Z" finished-at="2018-01-13T02:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:41Z" finished-at="2018-01-13T02:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:43Z" finished-at="2018-01-13T02:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="FilterByLiveActionWithPOMTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterByLiveActionWithPOMTest" duration-ms="2435" started-at="2018-01-13T02:37:43Z" finished-at="2018-01-13T02:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterByLiveActionWithPOMTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:43Z" finished-at="2018-01-13T02:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:45Z" finished-at="2018-01-13T02:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:45Z" finished-at="2018-01-13T02:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:45Z" finished-at="2018-01-13T02:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:45Z" finished-at="2018-01-13T02:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="FilterTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesFilterTest@64616ca2]" name="FilterTest" duration-ms="0" started-at="2018-01-13T02:37:45Z" finished-at="2018-01-13T02:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterTest -->
+      </class> <!-- DCTestFrameWork_Tests.MoviesFilterTest -->
+      <class name="DCTestFrameWork_Tests.MoviesContentTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:DCTestFrameWork_Tests.MoviesContentTest@3b81a1bc]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2018-01-13T02:37:30Z" finished-at="2018-01-13T02:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesContentTest@3b81a1bc]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:30Z" finished-at="2018-01-13T02:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:DCTestFrameWork_Tests.MoviesContentTest@3b81a1bc]" name="beforeClass" is-config="true" duration-ms="2756" started-at="2018-01-13T02:37:30Z" finished-at="2018-01-13T02:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesContentTest@3b81a1bc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:32Z" finished-at="2018-01-13T02:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:DCTestFrameWork_Tests.MoviesContentTest@3b81a1bc]" name="f" duration-ms="1" started-at="2018-01-13T02:37:32Z" finished-at="2018-01-13T02:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DCTestFrameWork_Tests.MoviesContentTest@3b81a1bc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:32Z" finished-at="2018-01-13T02:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:DCTestFrameWork_Tests.MoviesContentTest@3b81a1bc]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:32Z" finished-at="2018-01-13T02:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:DCTestFrameWork_Tests.MoviesContentTest@3b81a1bc]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-13T02:37:47Z" finished-at="2018-01-13T02:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:DCTestFrameWork_Tests.MoviesContentTest@3b81a1bc]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-01-13T02:37:47Z" finished-at="2018-01-13T02:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- DCTestFrameWork_Tests.MoviesContentTest -->
+    </test> <!-- Movies Test -->
+  </suite> <!-- Movies -->
 </testng-results>
