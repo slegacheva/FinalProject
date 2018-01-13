@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="18.097" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.359" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_151\bin"/>
-    <property name="sun.java.command" value="C:\Users\dustin\AppData\Local\Temp\surefire4803700034791687662\surefirebooter8303814413621049309.jar C:\Users\dustin\AppData\Local\Temp\surefire4803700034791687662 2018-01-13T02-37-28_967-jvmRun1 surefire4894643726910595853tmp surefire_08451524902007657625tmp"/>
+    <property name="sun.java.command" value="C:\Users\dustin\AppData\Local\Temp\surefire6348532862447623203\surefirebooter351375660536978217.jar C:\Users\dustin\AppData\Local\Temp\surefire6348532862447623203 2018-01-13T02-46-56_068-jvmRun1 surefire6998038213898783086tmp surefire_01198929628268832926tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\dustin\workspace\DCTestFramework\target\test-classes;C:\Users\dustin\workspace\DCTestFramework\target\classes;C:\Users\dustin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\dustin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.1\selenium-api-3.7.1.jar;C:\Users\dustin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.1\selenium-chrome-driver-3.7.1.jar;C:\Users\dustin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\dustin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.1\selenium-firefox-driver-3.7.1.jar;C:\Users\dustin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.1\selenium-ie-driver-3.7.1.jar;C:\Users\dustin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\dustin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.1\selenium-remote-driver-3.7.1.jar;C:\Users\dustin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.1\selenium-safari-driver-3.7.1.jar;C:\Users\dustin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.1\selenium-support-3.7.1.jar;C:\Users\dustin\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\dustin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dustin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\dustin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dustin\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\dustin\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\dustin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\dustin\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\dustin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\dustin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\dustin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\dustin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\dustin\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\dustin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\dustin\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\dustin\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\dustin"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\dustin\AppData\Local\Temp\surefire4803700034791687662\surefirebooter8303814413621049309.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\dustin\AppData\Local\Temp\surefire6348532862447623203\surefirebooter351375660536978217.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_151\lib\resources.jar;C:\Program Files\Java\jre1.8.0_151\lib\rt.jar;C:\Program Files\Java\jre1.8.0_151\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_151\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_151\lib\jce.jar;C:\Program Files\Java\jre1.8.0_151\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_151\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_151\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,11 +61,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="f" classname="DCTestFrameWork_Tests.MoviesContentTest" time="0.002"/>
-  <testcase name="FilterByAnimationTest" classname="DCTestFrameWork_Tests.MoviesFilterTest" time="3.596"/>
-  <testcase name="FilterByLiveActionAndAnimationTest" classname="DCTestFrameWork_Tests.MoviesFilterTest" time="2.866"/>
-  <testcase name="FilterByLiveActionTest" classname="DCTestFrameWork_Tests.MoviesFilterTest" time="2.075"/>
-  <testcase name="FilterByLiveActionWithPOMTest" classname="DCTestFrameWork_Tests.MoviesFilterTest" time="2.435"/>
+  <testcase name="f" classname="DCTestFrameWork_Tests.ComicsTest" time="0.001"/>
+  <testcase name="f" classname="DCTestFrameWork_Tests.MoviesContentTest" time="0"/>
+  <testcase name="FilterByAnimationTest" classname="DCTestFrameWork_Tests.MoviesFilterTest" time="3.945"/>
+  <testcase name="FilterByLiveActionAndAnimationTest" classname="DCTestFrameWork_Tests.MoviesFilterTest" time="3.542"/>
+  <testcase name="FilterByLiveActionTest" classname="DCTestFrameWork_Tests.MoviesFilterTest" time="3.342"/>
+  <testcase name="FilterByLiveActionWithPOMTest" classname="DCTestFrameWork_Tests.MoviesFilterTest" time="2.396"/>
   <testcase name="FilterTest" classname="DCTestFrameWork_Tests.MoviesFilterTest" time="0"/>
   <testcase name="f" classname="DCTestFrameWork_Tests.MoviesNavTest" time="0"/>
 </testsuite>

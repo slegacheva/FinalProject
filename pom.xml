@@ -39,7 +39,7 @@
           <version>2.20.1</version>
           <configuration>
             <suiteXmlFiles>
-              <suiteXmlFile>movies.xml</suiteXmlFile>
+              <suiteXmlFile>./src/DCTestFrameWork_Tests/XML/movies.xml</suiteXmlFile>
             </suiteXmlFiles>
             <systemPropertyVariables>
         	  <browser>chrome</browser>
