@@ -11,11 +11,13 @@
     <activeByDefault>true</activeByDefault>
   </activation>
     <build>
+    
+           
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.20.1</version>
+          <version>2.18.1</version>
           <configuration>
             <suiteXmlFiles>
               <suiteXmlFile>testng.xml</suiteXmlFile>
@@ -36,8 +38,11 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.20.1</version>
+          <version>2.18.1</version>
           <configuration>
+            <forkCount>3</forkCount>
+    <reuseForks>true</reuseForks>
+    <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
             <suiteXmlFiles>
               <suiteXmlFile>./src/DCTestFrameWork_Tests/XML/movies.xml</suiteXmlFile>
             </suiteXmlFiles>
@@ -70,5 +75,11 @@
       <version>6.13.1</version>
       <scope>test</scope>
     </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore -->
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpcore</artifactId>
+    <version>4.4.8</version>
+</dependency>
   </dependencies>
 </project>

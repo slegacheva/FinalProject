@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <packages>
-      <package name = "DCTestFrameWork_Tests"/>
+      <package name = "test.java.DCTestFrameWork_Tests"/>
     </packages>
   </test>
 </suite>

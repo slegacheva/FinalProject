@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="DCTestFrameWork_Tests.MoviesNavTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- DCTestFrameWork_Tests.MoviesNavTest -->
+      <class name="DCTestFrameWork_Tests.MoviesFilterTest">
+        <methods>
+          <include name="FilterByLiveActionAndAnimationTest"/>
+          <include name="FilterByLiveActionTest"/>
+          <include name="FilterByLiveActionWithPOMTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="FilterByAnimationTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="FilterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- DCTestFrameWork_Tests.MoviesFilterTest -->
+      <class name="DCTestFrameWork_Tests.MoviesContentTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- DCTestFrameWork_Tests.MoviesContentTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
