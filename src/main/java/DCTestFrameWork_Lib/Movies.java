@@ -8,15 +8,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Movies {
-	@FindBy(css="div.filter-set.filters-movietype > h3 > span")
-	public WebElement MovieType;
+	@FindBy(className="shoveler-content")
+	public WebElement MovieContent;
 	
-	@FindBy(name= "movietype")
-	public List<WebElement> MovieTypeCheckbox;
+	@FindBy(className= "large-heading")
+	public WebElement MovieContent1;
 	
-	@FindBy(className="filter-title")
-	public List<WebElement> MovieFilters;
-
+	
 	WebDriver driver;
 	
 	public Movies(WebDriver driver) {

@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Driver implements WebDriver {
 
-	WebDriver driver;
+	public WebDriver driver;
 	String browserName;
 	
 	public Driver(String browserName) {
